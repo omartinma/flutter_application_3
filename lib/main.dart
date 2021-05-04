@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
       backgroundColor: Colors.grey,
       body: Center(
         child: ElevatedButton(
-          child: Text('Open dialog'),
+          child: Text('Open bottomsheet'),
           onPressed: () {
             showModalBottomSheet(
               context: context,
