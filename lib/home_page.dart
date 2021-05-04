@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget {
           onPressed: () {
             showModalBottomSheet(
               context: context,
-              isScrollControlled: false,
+              isScrollControlled: true,
               backgroundColor: Colors.transparent,
               builder: (context) => ExampleBottomSheet(),
             );
